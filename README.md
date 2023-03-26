@@ -1,13 +1,13 @@
-##Power Budgeting Calculator for UAV/Aircraft
+# Power Budgeting Calculator for UAV/Aircraft
 
 This Python script is designed to calculate the power budget for a UAV or aircraft, based on various input parameters. It calculates the total energy required, total energy available from the battery, energy consumed by the propulsion system, and energy available for other systems. It also estimates the flight time based on the available energy.
 
-##Background
+## Background
 
 Power budgeting is an important aspect of UAV and aircraft design. It involves calculating the power requirements for all the systems on board the vehicle, and ensuring that the available power from the battery or other power source is sufficient to meet those requirements. The power budget can be affected by a range of factors, including the type of motor and propeller used, the efficiency of the propulsion and other systems, and the power consumed by avionics, lighting, and communication systems.
 
 
-##Usage
+## Usage
 
 To use the script, you need to have Python installed on your computer. You also need to install the Matplotlib library to generate the pie chart. You can install it using the following command:
 ```
@@ -28,7 +28,7 @@ The script requires Python 3.x and the Matplotlib library to be installed.
 
 
 
-##Input Parameters
+## Input Parameters
 
 The input parameters required by the script are as follows:
 
@@ -45,7 +45,7 @@ The input parameters required by the script are as follows:
     Power consumption by avionics system (W)
     Power consumption by communication system (W)
 
-##Output
+## Output
 
 The script outputs the following:
 
@@ -56,7 +56,7 @@ The script outputs the following:
     Estimated flight time (based on other system energy) in minutes
     A pie chart showing the energy breakdown
 
-##Formulae    
+## Formulae    
 
 The following formulae are used by the script:
 
@@ -72,7 +72,7 @@ The following formulae are used by the script:
 
 
 
-##Future Improvements
+## Future Improvements
 
 Future improvements to the script could include:
 
@@ -83,9 +83,9 @@ Future improvements to the script could include:
 
 
 
-##Authors
+## Authors
 This tool was created by Sadiq Ali (UG Aerospace Engineering student at R.V College of Engineering),
 under the guidance of Prof. Benjamin Rohit (Department of Aeropace Engineering, RVCE).
 
-##License
+## License
 This tool is licensed under the MIT License. See the LICENSE file for more details.
